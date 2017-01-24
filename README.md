@@ -5,7 +5,7 @@ A network application with sockets and threads (Pthreads). The bank server keeps
 Make command to compile and make clean to remove all object files.
 <h2/>Run	</h2></h2>
 <h3/>For the server</h3>
-./server -p <port> -s <thread_pool_size> -q <queue_size>
+./server -p &ltport&gt -s <thread_pool_size> -q <queue_size>
 
 <port>: port number which will be used by the socket to receive connection from clients
 <thread_pool_size>: The number of working threads in the thread pool
