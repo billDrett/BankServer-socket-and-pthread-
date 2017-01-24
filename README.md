@@ -1,3 +1,4 @@
+
 <h1/>BankServer(sockets, pthreads) </h1>
 <h2/>Introduction </h2>
 A network application with sockets and threads (Pthreads). The bank server keeps data for bank accounts and bank clients are connecting to the server to make transactions. The server has a thread pool and uses a thread for each client connection request. To keep the data for each account is uses a threadsafe hashtable. I have implement my own list, queue and hashtable because i wasnt allowed to use stl in my class.
@@ -5,7 +6,7 @@ A network application with sockets and threads (Pthreads). The bank server keeps
 Make command to compile and make clean to remove all object files.
 <h2/>Run	</h2></h2>
 <b/>For the server</b></br>
-./server -p &lt port &gt -s <thread_pool_size> -q <queue_size>
+./server -p &lt; port &gt; -s <thread_pool_size> -q <queue_size>
 
 <port>: port number which will be used by the socket to receive connection from clients
 <thread_pool_size>: The number of working threads in the thread pool
