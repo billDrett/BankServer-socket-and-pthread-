@@ -6,17 +6,17 @@ A network application with sockets and threads (Pthreads). The bank server keeps
 Make command to compile and make clean to remove all object files.
 <h2/>Run	</h2></h2>
 <b/>For the server</b></br>
-./server -p &lt; port &gt; -s &lt;thread_pool_size&gt; -q &lt;queue_size&gt;
+./server -p &lt; port &gt; -s &lt;thread_pool_size&gt; -q &lt;queue_size&gt;</br>
 
-&lt;port&gt;: port number which will be used by the socket to receive connection from clients
-&lt;thread_pool_size&gt;: The number of working threads in the thread pool
-&lt;queue_size&gt;: The size of the queue
+&lt;port&gt;: port number which will be used by the socket to receive connection from clients</br>
+&lt;thread_pool_size&gt;: The number of working threads in the thread pool</br>
+&lt;queue_size&gt;: The size of the queue</br>
 
 <b/>For the client</b></br>
-./client -h &lt;server_host&gt; -p &lt;server_port&gt; -i &lt;command_file&gt;
-&lt;server_host&gt;: The address (name) of the server machine
-&lt;server_port&gt; : The port of the server, so the client can connect to it
-&lt;command_file&gt; : The file with the commands to the server
+./client -h &lt;server_host&gt; -p &lt;server_port&gt; -i &lt;command_file&gt; </br>
+&lt;server_host&gt;: The address (name) of the server machine</br>
+&lt;server_port&gt; : The port of the server, so the client can connect to it</br>
+&lt;command_file&gt; : The file with the commands to the server</br>
 
 <h5/>Commands</h5>
 <lu>
