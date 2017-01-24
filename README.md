@@ -20,13 +20,20 @@ Make command to compile and make clean to remove all object files.
 
 <h5/>Commands</h5>
 <lu>
-<li>add_account <init_ammount> <name> [delay]</li>
-<li>add_transfer <amount> <src_name> <dst_name></li>
-<li>add_multi_transfer <amount> <src_name> <dst_name1> <dst_name2> ... [delay]</li>
-<li>print_balance <name></li>
-<li>print_multi_balance <name1> <name2> ...</li>
-<li>sleep <time></li>
+<li>add_account &lt;init_ammount&gt; &lt;name&gt; [delay]</li>
+Creates and account
+<li>add_transfer &lt;amount&gt; &lt;src_name&gt; &lt;dst_name&gt;</li>
+Transfers the amount from the src_name to dst_name account
+<li>add_multi_transfer &lt;amount&gt; &lt;src_name> &lt;dst_name1&gt; &lt;dst_name2&gt; ... [delay]</li>
+Transfers to multiple accounts
+<li>print_balance &lt;name&gt;</li>
+Prints the balance of the account
+<li>print_multi_balance &lt;name1&gt; &lt;name2&gt; ...</li>
+Prints the multiple balances of the accounts
+<li>sleep &lt;time&gt;</li>
+The client sleeps for time seconds
 <li>exit</li>
+The client closes
 
 <h2/>Functionality</h2>
 A user can register and login to the forum(if its a visitor, he skips that step), after that he/she can browse the forums and the subforms throught the menu. If its a admin he can create forums. The user can create threads and add his own posts to the threads already created from other users. Admins and moderators can change already existing posts and threads. Admins can also make a user moderator or admin.
